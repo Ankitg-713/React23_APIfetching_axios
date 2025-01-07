@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+ 
 function App() {
   const [products, setProducts] = useState([]);
 
@@ -33,6 +33,7 @@ function App() {
       >
         Call Products API
       </button>
+      <div>This is new div just for checking</div>
     </div>
   );
 }
