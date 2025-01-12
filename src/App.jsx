@@ -19,12 +19,12 @@ function App() {
       <ul>
         {products.length > 0 ? (
           products.map((p, index) => (
-            <li key={index} className="mb-4 px-2 py-3 bg-gray-300 rounded-md">
+            <li key={index} className="mb-4 px-2 py-3 bg-gray-400 rounded-md">
               {p.title}
             </li>
           ))
         ) : (
-          <h1>Click that button to load the Product --------------> </h1>
+          <h1>Click that button to load the Product --------------= </h1>
         )}
       </ul>
       <button
