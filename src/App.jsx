@@ -19,7 +19,7 @@ function App() {
       <ul>
         {products.length > 0 ? (
           products.map((p, index) => (
-            <li key={index} className="mb-4 px-2 py-3 bg-gray-400 rounded-md">
+            <li key={index} className="mb-5 px-2 py-3 bg-gray-400 rounded-md">
               {p.title}
             </li>
           ))
