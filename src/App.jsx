@@ -24,7 +24,7 @@ function App() {
             </li>
           ))
         ) : (
-          <h1>Click that button to load the Product --------------= </h1>
+          <h1>Click that button to load the Product -------------= </h1>
         )}
       </ul>
       <button
