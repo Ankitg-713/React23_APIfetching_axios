@@ -33,7 +33,6 @@ function App() {
       >
         Call Products API
       </button>
-      <div>This is new div just for checking</div>
     </div>
   );
 }
