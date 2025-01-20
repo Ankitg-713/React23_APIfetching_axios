@@ -31,7 +31,7 @@ function App() {
         onClick={getProducts}
         className="px-3 py-2 h-12 rounded-md bg-sky-500 text-white"
       >
-        Call Products API
+        Call Product API
       </button>
     </div>
   );
