@@ -11,7 +11,7 @@ function App() {
         console.log(products);
         setProducts(products.data);
       })
-      .catch((err) => console.log(err));
+      .catch((errs) => console.log(errs));
   };
 
   return (
